@@ -18,27 +18,27 @@ int main(int argc, char *argv[])
     bt.insert(std::make_pair(3,3));
     bt.insert(std::make_pair(1,1));
 
-    // bt.print();
+    bt.print();
 
 
-    // bt.remove(2);
-    // bt.print();
-    // bt.remove(1);
-    // bt.print();
-    // bt.remove(5);
-    // bt.print();
-    // bt.remove(4);
-    // bt.print();
-    // bt.remove(5);
-    // bt.print();
-    // bt.remove(6);
-    // bt.print();
-    // bt.remove(7);
-    // bt.print();
-    // bt.remove(8);
-    // bt.print();
+    bt.remove(2);
+    bt.print();
+    bt.remove(1);
+    bt.print();
+    bt.remove(5);
+    bt.print();
+    bt.remove(4);
+    bt.print();
+    bt.remove(5);
+    bt.print();
+    bt.remove(6);
+    bt.print();
+    bt.remove(7);
+    bt.print();
+    bt.remove(8);
+    bt.print();
 
-    // return 0;
+    return 0;
     // cout << "Binary Search Tree contents:" << endl;
     // BinarySearchTree<int, int>::iterator it = bt.begin();
     // // cout << "Hello" << endl;
