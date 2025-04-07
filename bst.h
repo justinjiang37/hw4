@@ -659,8 +659,9 @@ void BinarySearchTree<Key, Value>::remove(const Key& key)
             removeNode->getLeft()->setParent(parent);
         }
     }
-    delete removeNode;
   }
+
+  delete removeNode;
 }
 
 
